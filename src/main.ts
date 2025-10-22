@@ -19,4 +19,5 @@ export function procesarReserva(cliente: string, total: number): string {
  }
  console.log(`Total a pagar: ${total} €`);
  return "Reserva completada correctamente con descuento.";
+ 
 }
