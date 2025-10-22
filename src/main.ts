@@ -9,6 +9,7 @@ mostrarMesasDisponibles();
 console.log("Acceso denegado al sistema ");
 }
 
+
 export function procesarReserva(cliente: string, total: number): string {
  console.log(`Procesando reserva para ${cliente}.`);
  console.log(`Total a pagar: ${total} €`);
